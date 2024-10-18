@@ -162,7 +162,7 @@ export default function TabTwoScreen() {
         style={{
           backgroundColor: "white",
           position: "relative",
-          padding: 30,
+          paddingVertical: 30,
           borderTopStartRadius: 50,
           borderTopEndRadius: 50,
           minHeight: height * 0.4,

@@ -4,7 +4,7 @@ import { textColor } from "@/constants/Colors";
 
 const ProfileComponent = () => {
   return (
-    <View style={{ gap: 5 }}>
+    <View style={{ gap: 5, paddingHorizontal: 20 }}>
       <View
         style={{
           flexDirection: "row",
