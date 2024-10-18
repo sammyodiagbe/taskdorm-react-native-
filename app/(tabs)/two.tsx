@@ -1,5 +1,6 @@
 import ProfileComponent from "@/components/profileComponent";
 import RequestedComponent from "@/components/requestedComponent";
+import ScreenTwoContentComponent from "@/components/screenTwoContent";
 import { textColor } from "@/constants/Colors";
 import { Ionicons } from "@expo/vector-icons";
 import { router } from "expo-router";
@@ -36,11 +37,10 @@ export default function TabTwoScreen() {
       </View>
       <View
         style={{
-          marginTop: 30,
           flexDirection: "row",
           gap: 15,
           alignItems: "center",
-          flex: 1,
+          paddingVertical: 60,
           paddingHorizontal: 30,
         }}
       >
@@ -161,14 +161,16 @@ export default function TabTwoScreen() {
       <View
         style={{
           backgroundColor: "white",
+          position: "relative",
           padding: 30,
           borderTopStartRadius: 50,
           borderTopEndRadius: 50,
-          height: "auto",
+          minHeight: height * 0.4,
           flex: 1,
         }}
       >
         <ProfileComponent />
+        <ScreenTwoContentComponent />
         <RequestedComponent />
       </View>
     </View>
@@ -184,6 +186,7 @@ const styles = StyleSheet.create({
 
   imageContainer: {
     height: 80,
+
     width: 80,
     backgroundColor: "#17A4ED",
     borderRadius: 80,

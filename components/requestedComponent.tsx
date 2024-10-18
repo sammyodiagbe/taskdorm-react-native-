@@ -19,7 +19,7 @@ const RequestedComponent = () => {
 
 const styles = StyleSheet.create({
   container: {
-    paddingVertical: 40,
+    paddingVertical: 30,
     borderRadius: 100,
     position: "absolute",
     bottom: 0,
