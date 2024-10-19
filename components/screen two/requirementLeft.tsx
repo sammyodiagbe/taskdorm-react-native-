@@ -11,16 +11,16 @@ const RequirementLeftComponent = () => {
           </View>
           <View style={styles.description}>
             <Text style={styles.descriptionText}>450</Text>
-            <Ionicons name="trending-up-outline" size={18} />
+            <Ionicons name="trending-up-outline" size={20} />
           </View>
         </View>
         <View style={styles.content}>
           <View style={styles.iconWrapper}>
-            <Ionicons name="flash" size={18} />
+            <Ionicons name="flash" size={20} />
           </View>
           <View style={styles.description}>
             <Text style={styles.descriptionText}>200</Text>
-            <Ionicons name="trending-up-outline" size={18} />
+            <Ionicons name="trending-up-outline" size={20} />
           </View>
         </View>
       </View>
